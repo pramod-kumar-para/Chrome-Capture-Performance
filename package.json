@@ -4,7 +4,8 @@
   "description": "Tool to capture all metrics for a given webpage",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/pramod-kumar-para/Chrome-Capture-Performance/issues"
   },
-  "homepage": "https://github.com/pramod-kumar-para/Chrome-Capture-Performance#readme"
+  "homepage": "https://github.com/pramod-kumar-para/Chrome-Capture-Performance#readme",
+  "dependencies": {
+    "chrome-launcher": "^0.10.5",
+    "puppeteer": "^1.8.0"
+  }
 }
